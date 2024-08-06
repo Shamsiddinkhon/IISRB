@@ -1,0 +1,21 @@
+{
+  "name": "iisrb",
+  "version": "2.0.0",
+  "description": "Bu bot xar kuni hodimlar keladigan malumotlarni excel file ga shaklantirib rahbariyatga yuboriladi",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node grafik.js",
+    "dev": "nodemon grafik.js"
+  },
+  "author": "Shamsiddinkhon Shukurov",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.5.1",
+    "node-schedule": "^2.1.1",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
